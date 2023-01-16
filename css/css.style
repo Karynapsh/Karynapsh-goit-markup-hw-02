@@ -1,0 +1,36 @@
+:root {
+    --main-text-color: #2E2F42
+    --second-text-color: #434455
+    --owner-text-color:
+    --accent-color: #4D5AE5
+    --main-bg-color:
+    --benefits-bg-color:
+    --footer-bg-color:
+    --main-font:
+    --social-font:
+    --background-color: #F4F4FD
+}
+
+body {
+    background-color: 
+    font-family: var(--main-font);
+    color: var(--main-text-color)
+}
+
+.list {
+    list-style: none;
+}
+/* -----site nav-----*/
+.site-nav {
+    color: #2E2F42
+
+}
+.logo {
+    color: #4D5AE5
+}
+html {
+    front-size: 10px 
+}
+.stile-nav {
+    
+}
