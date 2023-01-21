@@ -4,7 +4,10 @@
   --navy-blue: #2e2f42;
   --white: #ffffff;
   --cornflower: #e7e9fc;
+
+  /* Background colors */
   --light-backgrnd: #f4f4fd;
+  --ocean: #404bbf;
 }
 
 body {
@@ -19,6 +22,11 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-cl);
 }
 
 /* Header styles */
@@ -80,7 +88,15 @@ body {
   line-height: calc(24 / 16);
   letter-spacing: 0.04em;
   color: var(--white);
+  cursor: pointer;
 }
+
+.btn:hover,
+.btn:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
 /* Feature styles */
 .feature {
 }
